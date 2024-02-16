@@ -6,12 +6,12 @@ from .models import Beer, Order
 
 # define a list of beers for the bar
 beers = [
-    Beer(1, 'IPA', 5.0),
-    Beer(2, 'Stout', 6.0),
-    Beer(3, 'Pale Ale', 5.5),
-    Beer(4, 'Sour', 7.0),
-    Beer(5, 'Pilsner', 4.5),
-    Beer(6, 'Lager', 4.5)
+    Beer(1, 'IPA', 5.0, True),
+    Beer(2, 'Stout', 6.0,True),
+    Beer(3, 'Pale Ale', 5.5,True),
+    Beer(4, 'Sour', 7.0,True),
+    Beer(5, 'Pilsner', 4.5,True),
+    Beer(6, 'Lager', 4.5, True)
 ]
 
 orders = []
