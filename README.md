@@ -79,4 +79,8 @@ This project is a simple REST API built with Django and Django REST Framework (D
   }
 
 # RECOMENDATIONS
-for a best performance to test the frontend, first call the endpoint for create and order to have data for test
+for a best performance to test the frontend, first call the endpoint for create and order to have data for test 
+
+
+# testing 
+to test the scenarios please run this command in the beerbar folder python manage.py test
