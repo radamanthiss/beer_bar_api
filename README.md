@@ -40,6 +40,13 @@ This project is a simple REST API built with Django and Django REST Framework (D
   "quantity": 2
   }
 
+- curl --location 'http://127.0.0.1:8000/api/order/' \
+  --header 'Content-Type: application/json' \
+  --data '{
+      "friend_name": "Kevin",
+      "beer_id": 2,
+      "quantity":1
+  }'
 
 ## Payment a order or account endpoint
 - endpoint POST /api/pay/
