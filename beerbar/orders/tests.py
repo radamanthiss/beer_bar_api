@@ -99,6 +99,5 @@ class GetAccountingTests(TestCase):
       response = self.view(request)
     
     self.assertEqual(response.status_code, status.HTTP_200_OK)
-    # Adjust expected_total_value based on your setup
     expected_total_value = sum(beer.price * order.quantity for order in self.orders for beer in self.beers if order.beer_id == beer.id)
     self.assertEqual(response.data, {'total_value': expected_total_value})
